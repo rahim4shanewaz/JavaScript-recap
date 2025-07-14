@@ -37,6 +37,23 @@ if (salary>25000 || height>62) {
 else{
     console.log("Need to Improve")
 }
+
+
+// multi level ef else
+
+    const price = 1500;
+
+    if (price <= 5000) {
+        const discount = price * 10/100;
+        
+        const newPrice = price - discount;
+
+        console.log(newPrice)
+
+    }
    
+    else{
+        console.log("no Discount")
+    }
     
 
