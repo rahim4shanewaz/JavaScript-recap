@@ -1,4 +1,4 @@
-/**comparison */
+/**comparison 
 //console.log(5>10)
 
 
@@ -57,3 +57,16 @@ else{
     }
     
 
+*/
+
+//ternary
+
+const ages = 20;
+if (ages>=25) {
+    console.log("you can vote")
+}
+else{
+    console.log("you cant vote")
+}
+
+ages>18 ? console.log("voter") : console.log("not voter")
